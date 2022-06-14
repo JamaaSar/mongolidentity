@@ -1,0 +1,83 @@
+.subsection {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding-bottom: 36px;
+}
+
+.fieldtext {
+  position: absolute;
+  left: 6.15%;
+  top: 81.16%;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  z-index: 2;
+  color: #ffffff;
+}
+.cardBody {
+  width: 368px;
+  height: 206px;
+  position: relative;
+}
+.cardBody svg {
+  position: absolute;
+  left: 85.45%;
+  right: 7.38%;
+  top: 14.13%;
+  z-index: 2;
+}
+.cardImg {
+  width: 368px;
+  height: 206px;
+  border-radius: 30px;
+  position: relative;
+}
+.cultureFilter {
+  width: 368px;
+  height: 206px;
+  border-radius: 30px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 78, 194, 0) 43.84%, #004ec2 100%);
+  opacity: 0.8;
+  z-index: 1;
+}
+.scienceFilter {
+  width: 368px;
+  height: 206px;
+  border-radius: 30px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(52, 168, 83, 0) 43.84%,
+    #34a853 100%
+  );
+  opacity: 0.8;
+  z-index: 1;
+}
+.artFilter {
+  width: 368px;
+  height: 206px;
+  border-radius: 30px;
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 188, 5, 0) 43.84%,
+    #fbbc05 100%
+  );
+  opacity: 0.8;
+  z-index: 1;
+}
+.educationFilter {
+  width: 368px;
+  height: 206px;
+  border-radius: 30px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 75, 6, 0) 43.84%, #ff4b06 100%);
+  opacity: 0.8;
+  z-index: 1;
+}

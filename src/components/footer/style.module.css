@@ -1,0 +1,79 @@
+.footerSection {
+  height: 392px;
+  bottom: 0px;
+  left: 0px;
+  background: #222222;
+}
+.report {
+  left: 0%;
+  right: 0%;
+  height: 102px;
+  background: #004ec2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.report h1 {
+  color: #ffff;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 68px;
+}
+.report button {
+  height: 40px;
+  width: 120px;
+  background: #ffff;
+  border: none;
+  border-radius: 30px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 34px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #004ec2;
+}
+.footerNav {
+  left: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  color: #ffff;
+  padding: 20px;
+}
+.logo div {
+  padding-top: 15px;
+}
+.logo div > span {
+  padding-top: 5px;
+}
+.navigationBar {
+  left: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.navigationBar p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-left: 40px;
+}
+.navigationBar div > ul > li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 5px;
+  color: #e5e5e5;
+}
+.icons a {
+  padding: 5px;
+}

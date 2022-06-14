@@ -1,0 +1,73 @@
+.headerSeaction {
+  margin-bottom: 100px;
+}
+.banner {
+  position: relative;
+}
+.bannerImg {
+  height: 642px;
+  width: 100%;
+  position: relative;
+}
+.banner div {
+  height: 642px;
+  width: 100%;
+  position: absolute;
+  background: #004ec2;
+  opacity: 0.44;
+  z-index: 1;
+}
+.upHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 305px;
+  position: absolute;
+  width: 100%;
+  height: 92.68px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  background: rgba(0, 78, 194, 1);
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 516px;
+  bottom: 0%;
+  background-color: rgb(0, 78, 194);
+  background: rgba(0, 78, 194, 0.03);
+  height: 126px;
+  z-index: 2;
+}
+
+.NavbarButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 30px;
+  background-color: rgb(0, 8, 255);
+  background: rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(12px);
+  border-radius: 30px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  outline: inherit;
+}
+.NavbarButton a {
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}

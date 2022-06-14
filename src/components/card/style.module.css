@@ -1,0 +1,187 @@
+.newsCardBody {
+  width: 223px;
+  height: 284px;
+  position: relative;
+}
+
+.newsCardImg {
+  width: 223px;
+  height: 284px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.newsCardFilter {
+  width: 223px;
+  height: 284px;
+  border-radius: 30px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 78, 194, 0) 43.84%, #004ec2 100%);
+  opacity: 0.8;
+  z-index: 1;
+}
+.carddatetitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 179px;
+  left: 24px;
+  top: 164px;
+}
+.date {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 31px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: none;
+  margin: 0;
+  order: 0;
+  flex-grow: 0;
+  z-index: 2;
+}
+.title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  z-index: 2;
+  color: #ffffff;
+  word-wrap: break-word;
+}
+.calendarCardBody {
+  width: 368px;
+  height: 280px;
+  position: relative;
+}
+
+.calendarCardImg {
+  width: 368px;
+  height: 280px;
+  border-radius: 30px;
+  position: relative;
+}
+
+.calendarCardFilter {
+  width: 368px;
+  height: 280px;
+  border-radius: 30px;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 78, 194, 0) 43.84%, #004ec2 100%);
+  opacity: 0.8;
+  z-index: 1;
+}
+.calendarDatetitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 358px;
+  bottom: 20.4%;
+  left: 24px;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 6px;
+  position: absolute;
+  left: 5.39%;
+  top: 88.25%;
+  bottom: 15.4%;
+  z-index: 1;
+}
+.location svg {
+  width: 20px;
+}
+.location span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.calendarCardBody button {
+  position: absolute;
+  width: 98px;
+  height: 47px;
+  left: 27px;
+  top: 44px;
+  background: #ff290a;
+  border: none;
+  border-radius: 10px;
+  z-index: 1;
+  color: white;
+}
+.counter {
+  position: absolute;
+  z-index: 1;
+  width: 114px;
+  height: 47px;
+  left: 254px;
+  top: 44px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 20px 0px 0px 20px;
+}
+.counter p {
+  z-index: 1;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 19px;
+  color: #ffffff;
+}
+.TeamCardBody {
+  width: 250px;
+  height: 250px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 30px;
+}
+.TeamCardImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.TeamCardBody div {
+  text-align: center;
+}
+.TeamCardBody div > p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.TeamCardBody div > span {
+  margin: 0;
+  color: #004ec2;
+  font-weight: 700;
+  font-size: 14px;
+  opacity: 0.5;
+}

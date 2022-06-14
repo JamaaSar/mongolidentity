@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +37,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+.section {
+  width: 850px;
+  margin-bottom: 140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subsection {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  padding-bottom: 36px;
+}
+
+.slick-slide {
+  padding: 0 15px;
+}
+
+.slick-list {
+  margin: 0 2em;
+}
+h2 {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 0;
+}
+h3 {
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 39px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 6.05%;
+  top: 51.21%;
+  z-index: 2;
+  margin: 0;
+}
+.slick-prev:before {
+  color: #e5e5e5;
+  font-size: 40px;
+}
+
+.slick-next:before {
+  color: #e5e5e5;
+  font-size: 40px;
+}
+.paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  color: #222222;
+  margin: 0;
+  opacity: 0.5;
 }
