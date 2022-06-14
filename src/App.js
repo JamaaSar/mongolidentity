@@ -15,18 +15,18 @@ function App() {
   return (
     <>
       <Navbar />
-      <div>
-        <Routes>
-          <Route path='/' exact={"true"} element={<Homepage />} />
-          <Route path='/news' exact={"true"} element={<NewsPage />} />
-          <Route element={<AboutusPage />}>
-            <Route path="/aboutus/ourstory" element={<Ourstory />} />
-            <Route path="/aboutus/team" element={<Ourteam />} />
-          </Route>
 
-        </Routes>
+      <Routes>
+        <Route path='/' exact={"true"} element={<Homepage />} />
+        <Route path='/news' element={<NewsPage />} />
+        <Route element={<AboutusPage />}>
+          <Route path="/aboutus/ourstory" element={<Ourstory />} />
+          <Route path="/aboutus/team" element={<Ourteam />} />
+        </Route>
 
-      </div>
+      </Routes>
+
+
 
       <Getinvolved />
       <Footer />
