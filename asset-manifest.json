@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mongolidentity/static/css/main.a3486659.css",
-    "main.js": "/mongolidentity/static/js/main.b9fb66bd.js",
-    "static/js/787.daa699fa.chunk.js": "/mongolidentity/static/js/787.daa699fa.chunk.js",
-    "static/media/Rectangle 5.png": "/mongolidentity/static/media/Rectangle 5.e6e81ebbb98982b5c570.png",
-    "static/media/cal.png": "/mongolidentity/static/media/cal.0ae5e500f6b125cb660f.png",
-    "static/media/art.png": "/mongolidentity/static/media/art.682ce416bc3132eb7208.png",
-    "static/media/img.png": "/mongolidentity/static/media/img.cebbb5e2b90ba3d71991.png",
-    "static/media/science.png": "/mongolidentity/static/media/science.1793a494898fbee49cd6.png",
-    "static/media/education.png": "/mongolidentity/static/media/education.cc248c4731dc284194de.png",
-    "static/media/culture.png": "/mongolidentity/static/media/culture.830ca979e5ef307622d2.png",
-    "index.html": "/mongolidentity/index.html",
-    "main.a3486659.css.map": "/mongolidentity/static/css/main.a3486659.css.map",
-    "main.b9fb66bd.js.map": "/mongolidentity/static/js/main.b9fb66bd.js.map",
-    "787.daa699fa.chunk.js.map": "/mongolidentity/static/js/787.daa699fa.chunk.js.map"
+    "main.css": "/mi/static/css/main.a3486659.css",
+    "main.js": "/mi/static/js/main.73c3da8f.js",
+    "static/js/787.daa699fa.chunk.js": "/mi/static/js/787.daa699fa.chunk.js",
+    "static/media/Rectangle 5.png": "/mi/static/media/Rectangle 5.e6e81ebbb98982b5c570.png",
+    "static/media/cal.png": "/mi/static/media/cal.0ae5e500f6b125cb660f.png",
+    "static/media/art.png": "/mi/static/media/art.682ce416bc3132eb7208.png",
+    "static/media/img.png": "/mi/static/media/img.cebbb5e2b90ba3d71991.png",
+    "static/media/science.png": "/mi/static/media/science.1793a494898fbee49cd6.png",
+    "static/media/education.png": "/mi/static/media/education.cc248c4731dc284194de.png",
+    "static/media/culture.png": "/mi/static/media/culture.830ca979e5ef307622d2.png",
+    "index.html": "/mi/index.html",
+    "main.a3486659.css.map": "/mi/static/css/main.a3486659.css.map",
+    "main.73c3da8f.js.map": "/mi/static/js/main.73c3da8f.js.map",
+    "787.daa699fa.chunk.js.map": "/mi/static/js/787.daa699fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3486659.css",
-    "static/js/main.b9fb66bd.js"
+    "static/js/main.73c3da8f.js"
   ]
 }
