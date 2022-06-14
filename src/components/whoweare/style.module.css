@@ -1,20 +1,21 @@
 .section {
-  margin-top: 100px;
-  width: 852px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 140px;
 }
 
 .subSection {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 28px;
+  gap: 25px;
   margin-bottom: 15px;
 }
 .subSection svg {
   width: 120px;
 }
+
 .subSection div {
   margin-top: 15px;
 }

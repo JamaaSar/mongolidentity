@@ -1,18 +1,16 @@
 import React from 'react';
 import css from './style.module.css';
-import homebanner from '../../Rectangle 5.png';
-import Navbar from './Navbar';
 import UpHeader from './UpHeader';
 
-const Header = () => {
+const Header = ({ bannerimg }) => {
     return (
         <div className={css.headerSeaction}>
             <UpHeader />
             <div className={css.banner}>
                 <div></div>
-                <img src={homebanner} className={css.bannerImg} alt="firstpage" />
+                <h1>Mongol Identity</h1>
+                <img src={bannerimg} className={css.bannerImg} alt="firstpage" />
             </div>
-            <Navbar />
         </div>
 
     )

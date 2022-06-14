@@ -4,8 +4,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 35px;
-  padding-bottom: 36px;
+  gap: 25px;
+  padding-bottom: 25px;
 }
 
 .fieldtext {
@@ -20,8 +20,8 @@
   color: #ffffff;
 }
 .cardBody {
-  width: 368px;
-  height: 206px;
+  width: 308px;
+  height: 186px;
   position: relative;
 }
 .cardBody svg {
@@ -30,26 +30,27 @@
   right: 7.38%;
   top: 14.13%;
   z-index: 2;
+  width: 25px;
 }
 .cardImg {
-  width: 368px;
-  height: 206px;
-  border-radius: 30px;
+  width: 308px;
+  height: 186px;
+  border-radius: 20px;
   position: relative;
 }
 .cultureFilter {
-  width: 368px;
-  height: 206px;
-  border-radius: 30px;
+  width: 308px;
+  height: 186px;
+  border-radius: 20px;
   position: absolute;
   background: linear-gradient(180deg, rgba(0, 78, 194, 0) 43.84%, #004ec2 100%);
   opacity: 0.8;
   z-index: 1;
 }
 .scienceFilter {
-  width: 368px;
-  height: 206px;
-  border-radius: 30px;
+  width: 308px;
+  height: 186px;
+  border-radius: 20px;
   position: absolute;
   background: linear-gradient(
     180deg,
@@ -60,9 +61,9 @@
   z-index: 1;
 }
 .artFilter {
-  width: 368px;
-  height: 206px;
-  border-radius: 30px;
+  width: 308px;
+  height: 186px;
+  border-radius: 20px;
   position: absolute;
   background: linear-gradient(
     180deg,
@@ -73,9 +74,9 @@
   z-index: 1;
 }
 .educationFilter {
-  width: 368px;
-  height: 206px;
-  border-radius: 30px;
+  width: 308px;
+  height: 186px;
+  border-radius: 20px;
   position: absolute;
   background: linear-gradient(180deg, rgba(255, 75, 6, 0) 43.84%, #ff4b06 100%);
   opacity: 0.8;

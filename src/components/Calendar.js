@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Slider from "react-slick";
 import CalendarCard from './card/CalendarCard';
 import img from '../img/cal.png'
@@ -40,17 +39,21 @@ const Calendar = (props) => {
         prevArrow: <SamplePrevArrow />
     };
     return (
-        <div className='section'>
-            <h2 style={{ ...style, paddingLeft: "50px", paddingBottom: "30px" }}>Calendar</h2>
-            <Slider {...settings}>
-                <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
-                <CalendarCard date='2021/08/15' title='Tsagaan sar' img={img} location='Mongolia' />
-                <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='online' />
-                <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
-                <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
-                <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
-            </Slider>
+        <div style={{ ...style, width: "850px", marginLeft: "auto", marginRight: "auto" }}>
+
+            <div className='section'>
+                <h2 style={{ ...style, paddingLeft: "20px", paddingBottom: "30px" }}>Calendar</h2>
+                <Slider {...settings}>
+                    <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
+                    <CalendarCard date='2021/08/15' title='Tsagaan sar' img={img} location='Mongolia' />
+                    <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='online' />
+                    <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
+                    <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
+                    <CalendarCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} location='Mongolia' />
+                </Slider>
+            </div>
         </div>
+
     )
 }
 

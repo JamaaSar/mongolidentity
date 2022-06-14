@@ -1,20 +1,20 @@
 .newsCardBody {
-  width: 223px;
-  height: 284px;
+  width: 200px;
+  height: 250px;
   position: relative;
 }
 
 .newsCardImg {
-  width: 223px;
-  height: 284px;
-  border-radius: 30px;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
   position: relative;
 }
 
 .newsCardFilter {
-  width: 223px;
-  height: 284px;
-  border-radius: 30px;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
   position: absolute;
   background: linear-gradient(180deg, rgba(0, 78, 194, 0) 43.84%, #004ec2 100%);
   opacity: 0.8;
@@ -26,13 +26,13 @@
   align-items: flex-start;
   padding: 0px;
   position: absolute;
-  width: 179px;
-  left: 24px;
-  top: 164px;
+  width: 159px;
+  left: 20px;
+  bottom: 20px;
 }
 .date {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 31px;
   display: flex;
   align-items: flex-end;
@@ -47,8 +47,7 @@
 }
 .title {
   font-weight: 400;
-  font-size: 22px;
-  line-height: 34px;
+  font-size: 18px;
   margin: 0;
   display: flex;
   align-items: flex-end;
@@ -60,22 +59,22 @@
   word-wrap: break-word;
 }
 .calendarCardBody {
-  width: 368px;
-  height: 280px;
+  width: 288px;
+  height: 200px;
   position: relative;
 }
 
 .calendarCardImg {
-  width: 368px;
-  height: 280px;
-  border-radius: 30px;
+  width: 288px;
+  height: 200px;
+  border-radius: 20px;
   position: relative;
 }
 
 .calendarCardFilter {
-  width: 368px;
-  height: 280px;
-  border-radius: 30px;
+  width: 288px;
+  height: 200px;
+  border-radius: 20px;
   position: absolute;
   background: linear-gradient(180deg, rgba(0, 78, 194, 0) 43.84%, #004ec2 100%);
   opacity: 0.8;
@@ -87,7 +86,7 @@
   align-items: flex-start;
   padding: 0px;
   position: absolute;
-  width: 358px;
+  width: 238px;
   bottom: 20.4%;
   left: 24px;
 }
@@ -98,31 +97,27 @@
   padding: 0px;
   gap: 6px;
   position: absolute;
-  left: 5.39%;
+  left: 8.39%;
   top: 88.25%;
   bottom: 15.4%;
   z-index: 1;
 }
 .location svg {
-  width: 20px;
+  width: 15px;
 }
 .location span {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 140%;
-  display: flex;
   align-items: center;
   color: #ffffff;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 .calendarCardBody button {
   position: absolute;
-  width: 98px;
-  height: 47px;
+  width: 78px;
+  height: 34px;
   left: 27px;
-  top: 44px;
+  top: 14px;
   background: #ff290a;
   border: none;
   border-radius: 10px;
@@ -132,10 +127,10 @@
 .counter {
   position: absolute;
   z-index: 1;
-  width: 114px;
-  height: 47px;
-  left: 254px;
-  top: 44px;
+  width: 90px;
+  height: 34px;
+  left: 198px;
+  top: 18px;
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(12px);
   border-radius: 20px 0px 0px 20px;
@@ -144,15 +139,14 @@
   z-index: 1;
   text-align: center;
   font-weight: 400;
-  font-size: 14px;
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 12px;
+  margin: 9px auto;
   line-height: 19px;
   color: #ffffff;
 }
 .TeamCardBody {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -163,11 +157,11 @@
   background: #ffffff;
   border: 1px solid #e5e5e5;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .TeamCardImg {
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 .TeamCardBody div {
@@ -175,13 +169,14 @@
 }
 .TeamCardBody div > p {
   text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 2px;
+  font-weight: 800;
+  font-size: 12px;
+  margin: 5px 10px;
 }
 .TeamCardBody div > span {
   margin: 0;
   color: #004ec2;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 12px;
   opacity: 0.5;
 }

@@ -9,3 +9,8 @@ body {
 code {
   font-family: "Inter", sans-serif;
 }
+#root {
+  background-image: url("background.png");
+  background-position: 0px 600px;
+  background-repeat: reapeat-y;
+}

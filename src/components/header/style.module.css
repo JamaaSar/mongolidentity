@@ -1,16 +1,32 @@
 .headerSeaction {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .banner {
   position: relative;
 }
 .bannerImg {
-  height: 642px;
+  height: 592px;
   width: 100%;
-  position: relative;
+  top: 0px;
 }
+.banner h1 {
+  position: absolute;
+  width: 533.63px;
+  height: 61.88px;
+  left: 74.95px;
+  top: 280px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 46px;
+  line-height: 68px;
+  color: #ffffff;
+  z-index: 3;
+  text-transform: uppercase;
+}
+
 .banner div {
-  height: 642px;
+  height: 592px;
   width: 100%;
   position: absolute;
   background: #004ec2;
@@ -22,7 +38,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 305px;
+  gap: 100px;
   position: absolute;
   width: 100%;
   height: 92.68px;
@@ -41,33 +57,113 @@
   position: absolute;
   left: 0%;
   right: 0%;
-  top: 516px;
+  top: 466px;
   bottom: 0%;
   background-color: rgb(0, 78, 194);
   background: rgba(0, 78, 194, 0.03);
   height: 126px;
   z-index: 2;
 }
-
-.NavbarButton {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 14px 30px;
+.activeBg {
+  background-color: #004ec2;
+}
+.Navbar a {
+  padding: 10px 30px;
   background-color: rgb(0, 8, 255);
   background: rgba(255, 255, 255, 0.22);
   backdrop-filter: blur(12px);
   border-radius: 30px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  outline: inherit;
-}
-.NavbarButton a {
   color: white;
-  font-weight: 800;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 19px;
   text-decoration: none;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+
+  align-items: center;
+  gap: 20px;
+  width: 70%;
+  z-index: 2;
+}
+.search {
+  width: 203px;
+  height: 34px;
+  z-index: 2;
+  position: relative;
+}
+.searchBackground {
+  width: 203px;
+  height: 34px;
+  background: #07162c;
+  opacity: 0.3;
+  border-radius: 23.5px;
+  backdrop-filter: blur(12px);
+  position: absolute;
+}
+.search svg,
+.calendar svg {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 7px;
+  left: 15px;
+  z-index: 3;
+}
+
+.search input {
+  position: absolute;
+  width: 203px;
+  border-radius: 23.5px;
+  height: 34px;
+  background: transparent;
+  border: none;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 50px;
+}
+.search input:focus {
+  outline: none;
+}
+.calendar {
+  width: 350px;
+  height: 34px;
+  z-index: 2;
+  position: relative;
+}
+.calendarBackground {
+  width: 350px;
+  height: 34px;
+  background: #07162c;
+  opacity: 0.3;
+  border-radius: 23.5px;
+  backdrop-filter: blur(12px);
+  position: absolute;
+}
+.calendar p {
+  position: absolute;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  padding-left: 50px;
+  top: -4px;
+}
+.donate button {
+  width: 100px;
+  height: 33px;
+  background: #ff4b06;
+  border-radius: 30px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
 }

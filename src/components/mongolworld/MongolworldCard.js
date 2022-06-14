@@ -10,7 +10,7 @@ const MongolworldCard = (props) => {
     return (
 
         <div className='section'>
-            <h2 style={{ ...style, paddingLeft: "50px", paddingBottom: "30px" }}> Mongol world</h2>
+            <h2 style={{ ...style, paddingLeft: "30px", paddingBottom: "30px" }}> Mongol world</h2>
             <div className={css.subsection}>
                 <div className={css.cardBody}>
                     <div className={css.cultureFilter}></div>

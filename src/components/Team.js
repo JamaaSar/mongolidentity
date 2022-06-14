@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Slider from "react-slick";
 import TeamCard from './card/TeamCard';
 import img from '../img/img.png'
@@ -41,7 +40,7 @@ const Team = (props) => {
     };
     return (
         <div className='section'>
-            <h2 style={{ ...style, paddingLeft: "50px", paddingBottom: "30px" }}>Our team</h2>
+            <h2 style={{ ...style, paddingLeft: "20px", paddingBottom: "30px" }}>Our team</h2>
             <Slider {...settings}>
                 <TeamCard img={img} name='Uuganaa Ramsay' span='Founder' />
                 <TeamCard img={img} name='ulziisaikhan badamsed' span='Board member' />

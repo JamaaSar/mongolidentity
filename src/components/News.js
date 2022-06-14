@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Slider from "react-slick";
 import NewsCard from './card/NewsCard';
 import img from '../img/img.png'
@@ -41,7 +40,7 @@ const News = (props) => {
     };
     return (
         <div className='section'>
-            <h2 style={{ ...style, paddingLeft: "50px", paddingBottom: "30px" }}>News</h2>
+            <h2 style={{ ...style, paddingLeft: "20px", paddingBottom: "30px" }}>News</h2>
             <Slider {...settings}>
                 <NewsCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} />
                 <NewsCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} />
