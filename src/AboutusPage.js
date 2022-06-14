@@ -13,8 +13,8 @@ class AboutusPage extends React.Component {
                 <Header bannerimg={newspage} />
                 <nav className='subnavigation'>
                     <NavLink style={({ isActive }) => ({})} to='/aboutus/ourstory' ><div />Our story</NavLink>
-                    <NavLink style={({ isActive }) => ({})} to='/tos' > <div /> Our accomplishment  </NavLink>
-                    <NavLink style={({ isActive }) => ({})} to='/' >    <div /> What we do</NavLink>
+                    <NavLink style={({ isActive }) => ({})} to='/aboutus/accomplishments' > <div /> Our accomplishment  </NavLink>
+                    <NavLink style={({ isActive }) => ({})} to='/aboutus/whatwedo' >    <div /> What we do</NavLink>
                     <NavLink style={({ isActive }) => ({})} to='/aboutus/team' >    <div /> Our team</NavLink>
 
                 </nav>

@@ -8,8 +8,10 @@ import Getinvolved from "./components/getinvolved/Getinvolved";
 import Navbar from "./components/header/Navbar";
 import Homepage from './Homepage';
 import NewsPage from "./NewsPage";
+import Ouraccomplishment from "./Ouraccomplishment";
 import Ourstory from "./Ourstory";
 import Ourteam from "./Ourteam";
+import Whatwedo from "./Whatwedo";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route element={<AboutusPage />}>
           <Route path="/aboutus/ourstory" element={<Ourstory />} />
           <Route path="/aboutus/team" element={<Ourteam />} />
+          <Route path="/aboutus/accomplishments" element={<Ouraccomplishment />} />
+          <Route path="/aboutus/whatwedo" element={<Whatwedo />} />
         </Route>
 
       </Routes>

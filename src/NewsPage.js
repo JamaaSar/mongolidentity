@@ -14,8 +14,6 @@ import img from './img/img.png'
 
 
 const NewsPage = () => {
-    document.body.style.backgroundImage = "url('image url')";
-
     return (
         <>
             <Header bannerimg={newspage} />
@@ -23,10 +21,10 @@ const NewsPage = () => {
 
             <div className='section'>
                 <h2>News</h2>
-                <p className='paragraph'>
+                <p style={{ paddingBottom: "20px", paddingTop: "20px" }} className='paragraph'>
                     Stay up date with the latest news about Mongols around the world. Filter the content by theme and language. If you’re interested in writing for our website, contact us.
                 </p>
-                <div className='newsPage'>
+                <div style={{ paddingTop: "50px" }} className='newsPage'>
                     <NewsCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} />
                     <NewsCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} />
                     <NewsCard date='2021/08/15' title='The Hu in the Super Bowel' img={img} />

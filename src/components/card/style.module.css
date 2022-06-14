@@ -167,16 +167,59 @@
 .TeamCardBody div {
   text-align: center;
 }
-.TeamCardBody div > p {
+.TeamCardBody div > p,
+.BoardMemberCard div > p {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 12px;
   margin: 5px 10px;
 }
-.TeamCardBody div > span {
+.TeamCardBody div > span,
+.BoardMemberCard div > span {
   margin: 0;
   color: #004ec2;
   font-weight: 400;
   font-size: 12px;
   opacity: 0.5;
+  margin: 0px 10px;
+}
+.BoardMemberCard {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 700px;
+}
+.BoardMemberCard div {
+  width: 200px;
+}
+.BoardMemberCard p {
+  width: 360px;
+  margin: 0px;
+}
+.BoardMemberCardImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+.AccomplishmentCard {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.AccomplishmentCard div {
+  width: 400px;
+  padding: 0px;
+}
+.AccomplishmentCard p {
+  font-weight: 800;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 5px 0px 5px 0px;
+}
+.AccomplishmentCardImg {
+  width: 200px;
+  height: 120px;
 }
