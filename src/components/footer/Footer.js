@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={css.footerSection}>
             <div className={css.report}>
-                <h1> Report an incident</h1>
+                <h2 style={{ color: "#ffff" }}> Report an incident</h2>
                 <button>report</button>
             </div>
             <div className={css.footerNav}>
