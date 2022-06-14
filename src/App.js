@@ -7,9 +7,9 @@ import Homepage from './Homepage';
 function App() {
   return (
     <>
-      <Routes>
-        <Route path='/' exact={"true"} element={<Homepage />} />
-      </Routes>
+
+      <Route path='/' exact={"true"} element={<Homepage />} />
+
     </>
   );
 }
