@@ -19,7 +19,6 @@ function App() {
         <Routes>
           <Route path='/' exact={"true"} element={<Homepage />} />
           <Route path='/news' exact={"true"} element={<NewsPage />} />
-
           <Route element={<AboutusPage />}>
             <Route path="/aboutus/ourstory" element={<Ourstory />} />
             <Route path="/aboutus/team" element={<Ourteam />} />

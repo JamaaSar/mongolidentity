@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  mingolidentity:
+    container_name: mingolidentity
+    image: mingolidentity
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:3002:80"
+    restart: always
